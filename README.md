@@ -15,6 +15,6 @@ Google Fit is an app that tracks data from the phone, including:
 
 Within the app, it presents daily statistics and time-series through a dashboard.
 
-The data can be downloaded from Google quite easily. See (here)[https://support.google.com/accounts/answer/3024190?hl=en]
+The data can be downloaded from Google quite easily. See <https://support.google.com/accounts/answer/3024190?hl=en>.
 
-![image](image/draft 2.jpg)
+![image](/image/draft 2.jpg)
