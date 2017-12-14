@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TrainingCenterDatabase
+    xmlns="http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2"
+    xmlns:ns2="http://www.garmin.com/xmlschemas/UserProfile/v2"
+    xmlns:ns3="http://www.garmin.com/xmlschemas/ActivityExtension/v2"
+    xmlns:ns4="http://www.garmin.com/xmlschemas/ProfileExtension/v1"
+    xmlns:ns5="http://www.garmin.com/xmlschemas/ActivityGoals/v1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2 http://www.garmin.com/xmlschemas/TrainingCenterDatabasev2.xsd">
+    <Activities>
+        <Activity Sport="Other">
+            <Id>2016-05-27T03:12:17.282Z</Id>
+            <Notes>Walking</Notes>
+            <Lap StartTime="2016-05-27T03:12:17.282Z">
+                <Track>
+                    <Trackpoint>
+                        <DistanceMeters>0.0</DistanceMeters>
+                        <Time>2016-05-27T03:12:17.282Z</Time>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>0.0</DistanceMeters>
+                        <Time>2016-05-27T03:13:05.391Z</Time>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>42.96507263183594</DistanceMeters>
+                        <Time>2016-05-27T03:14:08.033Z</Time>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>104.29324722290039</DistanceMeters>
+                        <Time>2016-05-27T03:15:03.929Z</Time>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>110.83543014526367</DistanceMeters>
+                        <Time>2016-05-27T03:15:10.272Z</Time>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>162.57941055297852</DistanceMeters>
+                        <Time>2016-05-27T03:16:09.455Z</Time>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>232.9611701965332</DistanceMeters>
+                        <Time>2016-05-27T03:17:16.672Z</Time>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>293.36134338378906</DistanceMeters>
+                        <Time>2016-05-27T03:18:51.933Z</Time>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>350.6481056213379</DistanceMeters>
+                        <Time>2016-05-27T03:20:15.877Z</Time>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>353.13883447647095</DistanceMeters>
+                        <Time>2016-05-27T03:20:21.075Z</Time>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>434.5144371986389</DistanceMeters>
+                        <Time>2016-05-27T03:21:32.217Z</Time>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>482.5425019264221</DistanceMeters>
+                        <Time>2016-05-27T03:22:33.103Z</Time>
+                    </Trackpoint>
+                </Track>
+                <DistanceMeters>482.5425019264221</DistanceMeters>
+                <TotalTimeSeconds>615.821</TotalTimeSeconds>
+                <Calories>42.252166748046875</Calories>
+                <Intensity>Active</Intensity>
+                <TriggerMethod>Manual</TriggerMethod>
+            </Lap>
+        </Activity>
+    </Activities>
+    <Author xsi:type="Application_t">
+        <Name>Google Fit</Name>
+        <Build>
+            <Version>
+                <VersionMajor>0</VersionMajor>
+                <VersionMinor>0</VersionMinor>
+                <BuildMajor>0</BuildMajor>
+                <BuildMinor>0</BuildMinor>
+            </Version>
+        </Build>
+        <LangID>en</LangID>
+        <PartNumber>000-00000-00</PartNumber>
+    </Author>
+</TrainingCenterDatabase>

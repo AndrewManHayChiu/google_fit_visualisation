@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TrainingCenterDatabase
+    xmlns="http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2"
+    xmlns:ns2="http://www.garmin.com/xmlschemas/UserProfile/v2"
+    xmlns:ns3="http://www.garmin.com/xmlschemas/ActivityExtension/v2"
+    xmlns:ns4="http://www.garmin.com/xmlschemas/ProfileExtension/v1"
+    xmlns:ns5="http://www.garmin.com/xmlschemas/ActivityGoals/v1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2 http://www.garmin.com/xmlschemas/TrainingCenterDatabasev2.xsd">
+    <Activities>
+        <Activity Sport="Other">
+            <Id>2017-03-09T02:23:53.032Z</Id>
+            <Notes>Walking</Notes>
+            <Lap StartTime="2017-03-09T02:23:53.032Z">
+                <Track>
+                    <Trackpoint>
+                        <DistanceMeters>0.0</DistanceMeters>
+                        <Time>2017-03-09T02:23:53.032Z</Time>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>190.97048950195312</DistanceMeters>
+                        <Time>2017-03-09T02:27:51.252Z</Time>
+                        <Position>
+                            <LatitudeDegrees>-37.8126335144043</LatitudeDegrees>
+                            <LongitudeDegrees>144.9725799560547</LongitudeDegrees>
+                        </Position>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>198.77959728240967</DistanceMeters>
+                        <Time>2017-03-09T02:29:22.326Z</Time>
+                    </Trackpoint>
+                </Track>
+                <DistanceMeters>198.77959728240967</DistanceMeters>
+                <TotalTimeSeconds>329.294</TotalTimeSeconds>
+                <Calories>22.245637893676758</Calories>
+                <Intensity>Active</Intensity>
+                <TriggerMethod>Manual</TriggerMethod>
+            </Lap>
+        </Activity>
+        <Activity Sport="Other">
+            <Id>2017-03-09T02:29:33.926Z</Id>
+            <Notes>Walking</Notes>
+            <Lap StartTime="2017-03-09T02:29:33.926Z">
+                <Track>
+                    <Trackpoint>
+                        <DistanceMeters>0.0</DistanceMeters>
+                        <Time>2017-03-09T02:29:33.926Z</Time>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>9.136926651000977</DistanceMeters>
+                        <Time>2017-03-09T02:29:41.729Z</Time>
+                        <Position>
+                            <LatitudeDegrees>-37.812557220458984</LatitudeDegrees>
+                            <LongitudeDegrees>144.9725799560547</LongitudeDegrees>
+                        </Position>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>29.197185516357422</DistanceMeters>
+                        <Time>2017-03-09T02:29:55.998Z</Time>
+                    </Trackpoint>
+                </Track>
+                <DistanceMeters>29.197185516357422</DistanceMeters>
+                <TotalTimeSeconds>22.072</TotalTimeSeconds>
+                <Calories>1.4910862445831299</Calories>
+                <Intensity>Active</Intensity>
+                <TriggerMethod>Manual</TriggerMethod>
+            </Lap>
+        </Activity>
+        <Activity Sport="Other">
+            <Id>2017-03-09T02:29:55.998Z</Id>
+            <Notes>Walking</Notes>
+            <Lap StartTime="2017-03-09T02:29:55.998Z">
+                <Track>
+                    <Trackpoint>
+                        <DistanceMeters>0.0</DistanceMeters>
+                        <Time>2017-03-09T02:29:55.998Z</Time>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>32.090660095214844</DistanceMeters>
+                        <Time>2017-03-09T02:30:23.065Z</Time>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>107.79347229003906</DistanceMeters>
+                        <Time>2017-03-09T02:31:23.548Z</Time>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>157.60804748535156</DistanceMeters>
+                        <Time>2017-03-09T02:32:28.779Z</Time>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>162.6818332672119</DistanceMeters>
+                        <Time>2017-03-09T02:32:34.194Z</Time>
+                        <Position>
+                            <LatitudeDegrees>-37.813480377197266</LatitudeDegrees>
+                            <LongitudeDegrees>144.97508239746094</LongitudeDegrees>
+                        </Position>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>259.6793384552002</DistanceMeters>
+                        <Time>2017-03-09T02:35:22.090Z</Time>
+                        <Position>
+                            <LatitudeDegrees>-37.81264877319336</LatitudeDegrees>
+                            <LongitudeDegrees>144.9754180908203</LongitudeDegrees>
+                        </Position>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>270.758337020874</DistanceMeters>
+                        <Time>2017-03-09T02:36:18.989Z</Time>
+                    </Trackpoint>
+                </Track>
+                <DistanceMeters>270.758337020874</DistanceMeters>
+                <TotalTimeSeconds>382.991</TotalTimeSeconds>
+                <Calories>25.873170852661133</Calories>
+                <Intensity>Active</Intensity>
+                <TriggerMethod>Manual</TriggerMethod>
+            </Lap>
+        </Activity>
+    </Activities>
+    <Author xsi:type="Application_t">
+        <Name>Google Fit</Name>
+        <Build>
+            <Version>
+                <VersionMajor>0</VersionMajor>
+                <VersionMinor>0</VersionMinor>
+                <BuildMajor>0</BuildMajor>
+                <BuildMinor>0</BuildMinor>
+            </Version>
+        </Build>
+        <LangID>en</LangID>
+        <PartNumber>000-00000-00</PartNumber>
+    </Author>
+</TrainingCenterDatabase>
