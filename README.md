@@ -17,4 +17,4 @@ Within the app, it presents daily statistics and time-series through a dashboard
 
 The data can be downloaded from Google quite easily. See <https://support.google.com/accounts/answer/3024190?hl=en>.
 
-![image](/image/draft 2.jpeg)
+![image](/image/draft2.jpeg)
