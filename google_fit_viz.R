@@ -17,6 +17,7 @@ setwd("Daily Aggregations/")
 ####################################################
 ## Need to get the date of the file into each row ##
 ####################################################
+## Create function to read file and add the date of the file
 read_csv_and_add_date <- function(x) {
   temp_data <- read.csv(x)
   date <- strsplit(x, "*.csv")[[1]][1]
