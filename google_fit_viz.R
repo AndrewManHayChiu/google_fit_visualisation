@@ -164,12 +164,16 @@ ggplot() +
   geom_bar(data = data,
            aes(x = date,
                y = distance / 1000),
-           stat = "identity") +
+           stat = "identity",
+           fill = "#48FAB5") +
   scale_x_date(date_breaks = "1 month",
                date_labels = "%B",
                limits = ymd(c("2017-01-01", "2017-12-31"))) +
+  ## Bubbles for step count
   geom_point(data = daily_data,
-             aes(x = date, y = as.numeric(time)/3000 + 7, size = Step.count)) +
+             aes(x = date, y = as.numeric(time)/3000 + 7, size = Step.count),
+             alpha = 0.3,
+             colour = "#49B3FF") +
   ## Lines for temperature
   geom_line(data = temperature,
             aes(x = date, y = (max - 45) / 2)) + # scale values to create inner circle
@@ -180,7 +184,7 @@ ggplot() +
               aes(x = date,
                   ymin = (min - 45) / 2,
                   ymax = (max - 45) / 2),
-              fill = "blue",
+              fill = "#49FF83",
               alpha = 0.5) +
   ## shaded area for holiday to Europe
   geom_rect(data = temperature,
@@ -218,12 +222,38 @@ ggplot() +
   coord_polar() +
   theme_minimal() +
   theme(axis.text.y = element_blank(),
-        axis.text.x = element_text(angle = angles),
+        axis.text.x = element_text(angle = angles,
+                                   colour = "white"),
         panel.grid.minor = element_blank(),
         panel.grid.major = element_blank(),
         plot.title = element_text(hjust = 0.5),
         plot.subtitle = element_text(hjust = 0.5),
-        legend.position = "non") +
+        legend.position = "none",
+        panel.background = element_rect(fill = "grey20")) +
+  annotate("text", 
+           x = ymd("2017-01-15"), 
+           y = 0,
+           label = "Step Count",
+           size = 2,
+           colour = "white") +
+  annotate("text", 
+           x = ymd("2017-01-15"), 
+           y = -10,
+           label = "Temperature",
+           size = 2,
+           colour = "white") +
+  annotate("text", 
+           x = ymd("2017-01-15"), 
+           y = 20,
+           label = "15-minute step count",
+           size = 2,
+           colour = "white") +
+  annotate("text", 
+           x = ymd("2017-01-20"), 
+           y = 15,
+           label = "Holiday in Europe",
+           size = 2,
+           colour = "white") +
   labs(x = "",
        y = "",
        title = "2017",

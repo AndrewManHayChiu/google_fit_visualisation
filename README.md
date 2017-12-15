@@ -23,7 +23,7 @@ The data can be downloaded from Google quite easily. See <https://support.google
 
 Below is the second draft of my visualisation.
 
-The inner ring is the range of temperature in my home city, Melbourne.
+The inner ring is the range of temperature in my home city, Melbourne, Australia.
 
 The middle ring is a bar plot of the number of steps I took within each day.
 
