@@ -7,13 +7,6 @@ library(data.table)
 
 ## Load Data
 
-folder <- "Daily Aggregations/"
-files <- list.files(path = folder,
-                   pattern = "*.csv")
-files <- files[1:length(files) - 1]
-## Temporarily set working directory to folder contianing daily aggregates
-setwd("Daily Aggregations/")
-
 ####################################################
 ## Need to get the date of the file into each row ##
 ####################################################
@@ -24,24 +17,33 @@ read_csv_and_add_date <- function(x) {
   temp_data$date <- date
   return(temp_data)
 }
+
+## Get list of file names
+folder <- "Daily Aggregations/"
+files <- list.files(path = folder,
+                    pattern = "*.csv")
+files <- files[1:length(files) - 1]
+
+## Temporarily set working directory to folder contianing daily aggregates
+setwd("Daily Aggregations/")
+
+## Apply function to all files
 daily_data <- do.call(bind_rows, lapply(files, read_csv_and_add_date))
+
 ## Return working directory back to original
 setwd("..")
 
+## Read daily aggregations data
 file <- "Daily Aggregations/Daily Summaries.csv"
 data <- read.csv(file)
 
 ## Melbourne weather data from Bureau of Meteorology
-file2 <- "max_temp.csv"
-file3 <- "min_temp.csv"
-file4 <- "rainfall.csv"
-file5 <- "solar.csv"
+max_temp <- read.csv("weather/max_temp.csv")
+min_temp <- read.csv("weather/min_temp.csv")
+rainfall <- read.csv("weather/rainfall.csv")
+solar    <- read.csv("weather/solar.csv")
 
-max_temp <- read.csv(file2)
-min_temp <- read.csv(file3)
-rainfall <- read.csv(file4)
-
-## Data Collection
+# Data Collection ---------------------------------------------------------
 
 ## 531 rows of data (as at 13/12/2017)
 ## 18 fields
