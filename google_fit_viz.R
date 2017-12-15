@@ -165,7 +165,8 @@ ggplot() +
            aes(x = date,
                y = distance / 1000),
            stat = "identity",
-           fill = "#48FAB5") +
+           fill = "#48FAB5",
+           colour = "#48FAB5") +
   scale_x_date(date_breaks = "1 month",
                date_labels = "%B",
                limits = ymd(c("2017-01-01", "2017-12-31"))) +

@@ -29,4 +29,4 @@ The middle ring is a bar plot of the number of steps I took within each day.
 
 The outer ring is a circle chart of the number of steps I took at 15 minute intervals throughout the day.
 
-![image](/image/draft3.jpeg)
+![image](/image/draft3.png)
